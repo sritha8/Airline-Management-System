@@ -46,14 +46,16 @@ An interactive full-stack web application that simulates real-time airline opera
    cd airline-management-system
    
 2. Set up the MySQL database
-   Start your MySQL server
-   Use the create_schema.sql and stored_procedures.sql files in the database/ directory to initialize the schema and logic
+   - Start your MySQL server
+   - Use the create_schema.sql and stored_procedures.sql files in the database/ directory to initialize the schema and logic
    
 4. Start the backend server
+   ```bash
    cd backend
    python app.py
 
-5. Start the frontend development server
+6. Start the frontend development server
+   ```bash
    cd ../frontend
    npm install
    npm start
